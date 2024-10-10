@@ -1,0 +1,58 @@
+body {
+    background-color: crimson;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.pokecontainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    width: 80%;                     
+    margin: 20px auto;              
+    gap: 20px;
+    border-top: 3px dashed black;                      
+}
+
+.pokecontainerLeft, .pokecontainerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    width: 45%;                     
+}
+
+#pageTitle {
+    color: rgb(220, 220, 46);
+    font-weight: 900;
+    font-size: 42px;
+}
+
+#goButton {
+    background-color: blue;
+    color: rgb(220, 220, 46);
+}
+
+#pokeImg {
+    max-width: 175px;
+    min-width: 175px;
+}
+
+#pokeName {
+    font-size: 32px;
+}
+
+#pokeType {
+    font-size: 18px;
+}
+#pokeAbilities {
+    text-align: left;
+}
